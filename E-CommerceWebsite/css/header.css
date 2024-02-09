@@ -41,6 +41,11 @@ body
     text-decoration: none;
     color: rgb(29, 29, 29);
 }
+#shopName > b
+{
+    font-weight: 900;
+    font: black;
+}
 
 #collection
 {
@@ -88,6 +93,10 @@ body
     background-color: rgb(241, 241, 241);
     border: none;
     border-radius: 5px;
+}
+#input::placeholder
+{
+    font-weight: bold;
 }
 #input:focus
 {
