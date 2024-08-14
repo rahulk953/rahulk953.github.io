@@ -1,0 +1,78 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--black);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+  min-width: 200px;
+}
+.footer-section li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section p,
+.footer-section li {
+  color: #b0b0b0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+.contact :hover {
+  color: white;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  font-size: 20px;
+  color: #fff;
+  height: 1.6rem;
+}
+
+.footer-bottom {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+
+  .footer-section ul {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-now {
+    width: 100%;
+  }
+}

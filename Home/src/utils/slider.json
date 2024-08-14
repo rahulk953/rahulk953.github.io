@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cozy Haven Room",
+    "price": "1000 per Night",
+    "detail": "Espace to comfort in our Cozy haven Room, a snug retreat designed for intimate relaxtion. where tranquility meets roomy elegance.",
+    "image": "./small.jpg"
+  },
+  {
+    "name": "Spacious Serenity suite",
+    "price": "1500 per Night",
+    "detail": "Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.",
+    "image": "./large.jpg"
+  },
+  {
+    "name": "Spacious Serenity 2",
+    "price": "1600 per Night",
+    "detail": "Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.",
+    "image": "./room2.jpg"
+  }
+]

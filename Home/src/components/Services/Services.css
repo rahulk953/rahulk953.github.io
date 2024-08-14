@@ -1,0 +1,39 @@
+/* Services.css */
+.service {
+  background-image: url("./service.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 750px) {
+  .c-container {
+    flex-direction: column;
+  }
+  .image-container > img {
+    justify-content: center;
+    width: 100%;
+  }
+  .contactModes {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .s-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactModes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
